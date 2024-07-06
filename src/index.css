@@ -70,9 +70,8 @@ button:focus-visible {
 }
 .border-sc {
   border: 1px solid white;
-  /* min-height: 200px; */
-  min-width: 10vw;
-  min-height: 10vw;
+  min-width: 200px;
+  min-height: 200px;
   max-width: 400px;
   max-height: 400px;
   width: 20vw;

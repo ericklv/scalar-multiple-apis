@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+canvas {
+  z-index: -2;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -21,7 +25,6 @@
 }
 
 .docs-card {
-  background-color: #272727;
   min-width: 150px;
   border: 1px solid white;
   border-radius: 5px;
@@ -52,7 +55,7 @@
   justify-content: center;
   flex-direction: column;
   margin: 65px 15vw 100px;
-  padding: auto;
+  padding: 0 auto;
   text-align: center;
 
 }
@@ -106,5 +109,4 @@
 
 .white-text {
   color: white;
-  /* margin: auto 10px */
 }
