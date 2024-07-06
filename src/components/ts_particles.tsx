@@ -3,7 +3,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { type Container} from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
 import co from './../docs/company.json'
-import {amongus as config} from './../docs/ts-particles'
+import {amongus2 as config} from './../docs/ts-particles'
 
 const ParticlesBg = () => {
     const [init, setInit] = useState(false);
