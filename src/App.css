@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+canvas {
+  z-index: -2;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -42,7 +46,7 @@
   transform: scale(1.2);
 }
 
-.border-gg {
+.scalar-content {
   width: 100vw;
   text-align: left;
 }
@@ -52,7 +56,7 @@
   justify-content: center;
   flex-direction: column;
   margin: 65px 15vw 100px;
-  padding: auto;
+  padding: 0 auto;
   text-align: center;
 
 }
@@ -106,5 +110,4 @@
 
 .white-text {
   color: white;
-  /* margin: auto 10px */
 }

@@ -9,7 +9,7 @@ const Scalar = (props: any) => {
     const go_home = () => navi('/', { replace: true })
 
     return (
-        <div id={id} className='border-gg'>
+        <div id={id} className='scalar-content'>
             <ApiReferenceReact
                 configuration={{
                     spec: {

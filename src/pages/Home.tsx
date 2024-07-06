@@ -1,8 +1,9 @@
 import sc from './../assets/sad_company.webp'
+import { Link } from 'react-router-dom'
+import ParticlesBg from './../components/ts_particles';
 import './../App.css'
 import apis from './../docs/apis.json'
 import co from './../docs/company.json'
-import { Link } from 'react-router-dom'
 
 function Home() {
 
@@ -15,6 +16,7 @@ function Home() {
 
   return (
     <>
+      <ParticlesBg />
       <div className='home'>
         <div>
           <a href={co.website} target='_blank'>
