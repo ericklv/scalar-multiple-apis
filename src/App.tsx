@@ -5,11 +5,18 @@ import co from './docs/company.json'
 
 function App() {
   useEffect(() => {
+    const favicon_ = async () => {
+      const favicon = document.getElementById('favicon');
+      if(!!co.favicon) favicon.href = co.favicon
+      else if(!!co.logo) favicon.href = co.logo
+    };
+
+    favicon_();
     document.title = co.title;
   }, []);
 
   return (
-    <Router/>
+    <Router />
   )
 }
 

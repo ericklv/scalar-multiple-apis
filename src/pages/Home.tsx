@@ -11,20 +11,22 @@ function Home() {
     return 'mailto:' + email + '?Subject=' + subject;
   }
 
+  const logo_ = (logo: string) => !!logo ? logo : sc
+
   return (
     <>
       <div className='home'>
         <div>
           <a href={co.website} target='_blank'>
-            <img src={sc} className='logo border-sc' alt='React logo' />
+            <img src={logo_(co.logo)} className='logo border-sc' alt='React logo' />
           </a>
         </div>
         <h1>{co.title}</h1>
         <p>a documentation of {co.name} APis</p>
         <p>{co.about}</p>
         <div className='docs-list'>
-          {apis && apis.map(({ name, page }) => (
-            <Link to={page}>
+          {apis && apis.map(({ name, page, id }) => (
+            <Link key={id} to={page}>
               <div className='docs-card'>
                 <p className='white-text'>{name} ➡️</p>
               </div>

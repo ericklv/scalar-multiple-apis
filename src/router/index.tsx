@@ -12,7 +12,8 @@ const Router = () => {
         <Route path="/" element={<Home />} />
         {apis && apis.map(({ id, yaml, page }) => (
           <Route path={page}
-            element={<Scalar id={id} yaml={yaml} />} />
+            key={id + '-router'}
+            element={<Scalar key={id + '-scalar'} yaml={yaml} />} />
         ))}
         <Route path="*" element={<NotFound />} />
       </Routes>
