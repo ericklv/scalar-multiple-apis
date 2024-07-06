@@ -19,12 +19,12 @@ const ParticlesBg = () => {
         console.log(container);
     };
 
-    const options: ISourceOptions = useMemo(
+    const options: any = useMemo(
         () => (config),
         [],
     );
 
-    if (co["ts-particles"]) {
+    if (init || co["ts-particles"]) {
         return (
             <Particles
                 id="tsparticles"
