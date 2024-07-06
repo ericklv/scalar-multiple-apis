@@ -6,6 +6,14 @@ Simple landing to show all your APi Docs powered by Scalar API Reference.
 In the `src/docs` folder you can customize the json files.
 - `api.json` : Add all your OpenAPI/Swagger files.
 - `company.json` : Customize with your info.
+- `ts-particles/*.json` : Add your own JSON file with config for ts-particles animation or use `default.json`. Check in company.json if ts-particles is enabled.
+
+To load custom animation config edit `src/components/ts_particles.tsx`
+```tsx
+import tsp from './../docs/ts-particles/default.json'
+
+const ParticlesBg = () => {...}
+```
 
 ## Run locally
 1. Install node v18.18.0 or superior.
@@ -21,6 +29,13 @@ npm run dev
 ### Scalar API Reference
 Generate interactive API Docs from OpenAPI/Swagger documents.
 - [@scalar/api-reference-react](https://github.com/scalar/scalar)
+
+### TS Particles
+A lightweight TypeScript library for creating particles compatible with React, Vue, Angular and others.
+
+- [@tsparticles/react](https://github.com/tsparticles/react/#readme) React + TS
+- [@tsparticles/engine](https://github.com/tsparticles/tsparticles) No framework
+- [Animations presets](https://particles.js.org/samples/presets/index.html) Examples
 
 ### React + TypeScript + Vite
 
