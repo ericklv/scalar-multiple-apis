@@ -12,7 +12,9 @@ To load custom animation config edit `src/components/ts_particles.tsx`
 ```tsx
 import tsp from './../docs/ts-particles/default.json'
 
-const ParticlesBg = () => {...}
+const ParticlesBg = () => { 
+    //...
+}
 ```
 
 ## Run locally
