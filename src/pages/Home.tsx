@@ -2,8 +2,7 @@ import sc from './../assets/sad_company.webp'
 import { Link } from 'react-router-dom'
 import ParticlesBg from './../components/ts_particles';
 import './../App.css'
-import apis from './../docs/apis.json'
-import co from './../docs/company.json'
+import { apis, company as co } from './../docs';
 
 function Home() {
 

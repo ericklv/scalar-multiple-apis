@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './../pages/Home';
 import NotFound from './../pages/NotFound';
-import apis from './../docs/apis.json'
-import Scalar from '../pages/Scalar';
+import {apis} from './../docs';
+import Scalar from './../pages/Scalar';
 
 const Router = () => {
 

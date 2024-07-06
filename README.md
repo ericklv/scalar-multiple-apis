@@ -38,6 +38,7 @@ A lightweight TypeScript library for creating particles compatible with React, V
 - [@tsparticles/react](https://github.com/tsparticles/react/#readme) React + TS
 - [@tsparticles/engine](https://github.com/tsparticles/tsparticles) No framework
 - [Animations presets](https://particles.js.org/samples/presets/index.html) Examples
+- [Mateo Bruno Codepen](https://codepen.io/collection/DPOage?cursor=eyJwYWdlIjoxfQ==) Examples with preview
 
 ### React + TypeScript + Vite
 

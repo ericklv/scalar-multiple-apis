@@ -1,7 +1,7 @@
 import './App.css'
 import Router from './router';
 import { useEffect } from 'react';
-import co from './docs/company.json';
+import { company as co } from './docs';
 
 function App() {
   useEffect(() => {
