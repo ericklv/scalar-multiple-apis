@@ -10,7 +10,7 @@
           "value": 70
         },
         "zIndex": {
-          "value": 5000
+          "value": 1
         }
       },
       "z7500": {
@@ -224,7 +224,7 @@
         "straight": true
       },
       "zIndex": {
-        "value": 0
+        "value": 1
       },
       "rotate": {
         "value": {

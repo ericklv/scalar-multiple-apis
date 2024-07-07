@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import ParticlesBg from "./../components/ts_particles";
 import "./../App.css";
 import { apis, company as co } from "./../docs";
+import './../assets/css/home.css'
 
 function Home() {
   const mailTo = (email: string, type: string) => {
@@ -33,8 +34,13 @@ function Home() {
           {apis &&
             apis.map(({ name, page, id }) => (
               <Link key={id} to={page}>
-                <div className="docs-card">
-                  <p className="white-text">{name} ➡️</p>
+                <div className="card">
+                  <p className="white-text">{name}</p>
+                  <div className="card-corner">
+                    <div className="card-arrow">
+                      →
+                    </div>
+                  </div>
                 </div>
               </Link>
             ))}
