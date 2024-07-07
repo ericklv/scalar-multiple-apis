@@ -1,9 +1,7 @@
 import sc from "./../assets/sad_company.webp";
 import { Link } from "react-router-dom";
 import ParticlesBg from "./../components/ts_particles";
-import "./../App.css";
 import { apis, company as co } from "./../docs";
-import './../assets/css/home.css'
 
 function Home() {
   const mailTo = (email: string, type: string) => {
@@ -22,7 +20,7 @@ function Home() {
           <a href={co.website} target="_blank">
             <img
               src={logo_(co.logo)}
-              className="logo border-sc"
+              className="logo"
               alt="React logo"
             />
           </a>

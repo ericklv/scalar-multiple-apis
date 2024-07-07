@@ -1,4 +1,50 @@
+/* Scalar scheme */
+
+.light-mode {
+  --scalar-background-1: #fff;
+  --scalar-background-2: #f6f6f6;
+  --scalar-background-3: #e7e7e7;
+  --scalar-background-accent: #8ab4f81f;
+  --scalar-color-1: #2a2f45;
+  --scalar-color-2: #757575;
+  --scalar-color-3: #8e8e8e;
+  --scalar-color-accent: #0099ff;
+  --scalar-border-color: rgba(0, 0, 0, .1)
+}
+
+.dark-mode {
+  --scalar-background-1: #0f0f0f;
+  --scalar-background-2: #1a1a1a;
+  --scalar-background-3: #272727;
+  --scalar-color-1: rgba(255, 255, 255, .9);
+  --scalar-color-2: rgba(255, 255, 255, .62);
+  --scalar-color-3: rgba(255, 255, 255, .44);
+  --scalar-color-accent: #3ea6ff;
+  --scalar-background-accent: #3ea6ff1f;
+  --scalar-border-color: rgba(255, 255, 255, .1)
+}
+
 :root {
+  --color-1: #2a2f45;
+  --color-2: #8e8e8e;
+  --color-3: #2a2f45;
+  /* --color-4: #f6f6f6; */
+  --color-4: rgba(255, 255, 255, .9);
+  --color-5: #FFD166;
+  --color-6: rgba(255, 255, 255, .1);
+  --color-7: #0F0F0F;
+  --color-8: #272727;
+  --color-none: none;
+
+  --card-background: var(--color-none);
+  --card-arrow-color: var(--color-8);
+  --card-border-color: rgba(255, 255, 255, .62);
+
+  --text-color: var(--color-4);
+  --a-color: var(--color-5);
+  --btn-color: var(--color-8);
+  --btn-border-color: var(--color-6);
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -47,6 +93,10 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+canvas {
+  z-index: -1;
+}
 /* 
 @media (prefers-color-scheme: light) {
   :root {
@@ -69,7 +119,7 @@ button:focus-visible {
 }
 
 .btn-home {
-  background-color: #272727;
+  background-color: var(--btn-color);
   border-color: var(--btn-border-color);
   color: var(--text-color);
   border-radius: 10px;
@@ -83,7 +133,7 @@ button:focus-visible {
   }
 }
 
-.fixed {
+.btn-fixed {
   position: fixed;
   top: 90vh;
   right: 2vw;

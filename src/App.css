@@ -1,9 +1,8 @@
+@import "./assets/css/home.css";
+@import "./assets/css/utils.css";
+
 #root {
   width: 100vw;
   margin: 0;
   padding: 0;
-}
-
-canvas {
-  z-index: -1;
 }

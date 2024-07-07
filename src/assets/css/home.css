@@ -1,48 +1,3 @@
-/* Scalar scheme */
-
-.light-mode {
-  --scalar-background-1: #fff;
-  --scalar-background-2: #f6f6f6;
-  --scalar-background-3: #e7e7e7;
-  --scalar-background-accent: #8ab4f81f;
-  --scalar-color-1: #2a2f45;
-  --scalar-color-2: #757575;
-  --scalar-color-3: #8e8e8e;
-  --scalar-color-accent: #0099ff;
-  --scalar-border-color: rgba(0, 0, 0, .1)
-}
-
-.dark-mode {
-  --scalar-background-1: #0f0f0f;
-  --scalar-background-2: #1a1a1a;
-  --scalar-background-3: #272727;
-  --scalar-color-1: rgba(255, 255, 255, .9);
-  --scalar-color-2: rgba(255, 255, 255, .62);
-  --scalar-color-3: rgba(255, 255, 255, .44);
-  --scalar-color-accent: #3ea6ff;
-  --scalar-background-accent: #3ea6ff1f;
-  --scalar-border-color: rgba(255, 255, 255, .1)
-}
-
-:root {
-  --color-1: #2a2f45;
-  --color-2: #8e8e8e;
-  --color-3: #2a2f45;
-  --color-4: #f6f6f6;
-  --color-5: #FFD166;
-  --color-6: rgba(255, 255, 255, .1);
-  --color-none: none;
-
-  --card-background: var(--color-none);
-  --card-arrow-color: var(--color-1);
-  --card-border-color: rgba(255, 255, 255, .62);
-
-  --text-color: var(--color-4);
-  --a-color: var(--color-5);
-  --btn-color: var(--color-6);
-  --btn-border-color: var(--color-6);
-}
-
 .card {
   display: block;
   position: relative;
@@ -52,6 +7,7 @@
   border-radius: 4px;
   padding: 32px 24px;
   margin: 12px;
+  color: var(--text-color);
   text-decoration: none;
   z-index: 1;
   overflow: hidden;
@@ -83,12 +39,7 @@
 .card:hover {
   transform: scale(1.2);
 
-  p {
-    transition: all 0.3s ease-out;
-    color: var(--text-color);
-  }
-
-  h3 {
+  p,h3 {
     transition: all 0.3s ease-out;
     color: var(--text-color);
   }
@@ -198,8 +149,4 @@
       text-decoration: underline;
     }
   }
-}
-
-.white-text {
-  color:var(--text-color);
 }
