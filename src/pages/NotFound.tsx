@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import {ParticlesBg} from './../components';
+import { ParticlesBg } from './../components';
 import './../App.css'
 
 function NotFound() {
@@ -9,15 +9,15 @@ function NotFound() {
 
   return (
     <>
-    <ParticlesBg />
-    <div className='home'>
-      <div style={{"margin":"auto"}}>
-        <h1 className='border-sc docs-text'>¯\_(ツ)_/¯ </h1>
-      </div>
-      <h1>Not Found </h1>
+      <ParticlesBg />
+      <div className='home'>
+        <div style={{ "margin": "auto" }}>
+          <h1 className='border-sc docs-text'>¯\_(ツ)_/¯ </h1>
+        </div>
+        <h1>Not Found </h1>
 
-      <button className='btn-home' onClick={_ => go_home()}>Back to home</button>
-    </div>
+        <button className='btn-home' onClick={_ => go_home()}>Back to home</button>
+      </div>
     </>
   )
 }
