@@ -35,19 +35,20 @@
   --color-7: #0F0F0F;
   --color-8: #272727;
   --color-9: #1a1a1a;
+  --color-10: rgba(255, 255, 255, .62);
   --color-none: none;
 
-  --card-background: var(--color-none);
-  --card-arrow-color: var(--color-8);
-  --card-border-color: rgba(255, 255, 255, .62);
-
   --text-color: var(--color-4);
-  --a-color: var(--color-5);
+  --a-color: var(--color-6);
   --btn-color: var(--color-8);
   --btn-border-color: var(--color-6);
-  --bg-color: var(--color-7);
+  --bg-color: var(--color-3);
 
-  --svg-color:invert(100%) sepia(100%) saturate(0%) hue-rotate(336deg) brightness(102%) contrast(105%);
+  --card-background: var(--color-none);
+  --card-arrow-color: var(--bg-color);
+  --card-border-color: var(--color-10);
+
+  --svg-color: invert(100%) sepia(100%) saturate(0%) hue-rotate(336deg) brightness(102%) contrast(105%);
 
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -69,8 +70,8 @@ a {
 }
 
 body {
-  padding: 0!important;
-  margin: 0!important;
+  padding: 0 !important;
+  margin: 0 !important;
   display: flex;
   place-items: center;
   min-height: 100vh;
@@ -91,6 +92,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
