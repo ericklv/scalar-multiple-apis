@@ -6,13 +6,10 @@ import {company as co} from '../config'
 import {amongus2 as config} from '../config/ts-particles'
 
 const ParticlesBg = () => {
-    const [init, setInit] = useState(false);
     useEffect(() => {
         initParticlesEngine(async (engine) => {
             await loadSlim(engine);
-        }).then(() => {
-            setInit(true);
-        });
+        }).then(() => {});
     }, []);
 
     const particlesLoaded = async (container?: Container): Promise<void> => {
@@ -24,7 +21,7 @@ const ParticlesBg = () => {
         [],
     );
 
-    if (init || co["ts-particles"]) {
+    if (co["ts-particles"]) {
         return (
             <Particles
                 id="tsparticles"
