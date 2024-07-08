@@ -20,8 +20,8 @@
     {
         "name": "Lok Mexico",
         "yaml": "https://raw.githubusercontent.com/Chazki-Unified/open-api-docs/main/lok-api.json",
-        "page": "simple",
-        "id": "simple-docs-id"
+        "page": "lok",
+        "id": "lok-docs-id"
     },
     {
         "name": "Shopify ",
