@@ -1,0 +1,4 @@
+.bg-body {
+    /* add your color, animations, transitions and stuffs */
+    background-color: var(--bg-color);
+}

@@ -16,7 +16,7 @@ function App() {
     };
 
     favicon_();
-    document.title = co.title;
+    document.title = co.title || co.name + "Docs";
   }, []);
 
   return <Router />;
