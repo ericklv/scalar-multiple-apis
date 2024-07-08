@@ -2,8 +2,8 @@ import { useEffect, useMemo } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { type Container } from "@tsparticles/engine";
 import { loadFull } from "tsparticles";
-import { company as co } from '../config'
-import { default_ as config } from '../config/ts-particles'
+import { company as co } from '../config';
+import { default_ as config } from '../config/ts-particles';
 
 const ParticlesBg = () => {
     useEffect(() => {

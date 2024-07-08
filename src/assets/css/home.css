@@ -2,7 +2,6 @@
   p,a,h1,h2,h3,h5 {
     color: var(--text-color)
   };
-  
 }
 
 .icon-card {
@@ -118,7 +117,6 @@
 .footer-msg {
   height: 35px;
   width: 100vw;
-  background-color: black;
   text-align: center;
   display: flex;
   justify-content: center;

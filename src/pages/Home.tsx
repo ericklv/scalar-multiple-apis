@@ -8,7 +8,6 @@ function Home() {
 
   return (
     <>
-      <main>
         <ParticlesBg />
         <div className="home">
           <div>
@@ -40,7 +39,6 @@ function Home() {
               ))}
           </div>
         </div>
-      </main>
       <Footer co={co}/>
     </>
   );

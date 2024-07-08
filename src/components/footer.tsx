@@ -6,7 +6,7 @@ const Footer = ({co}: {co:any}) => {
       };
 
     return <>
-        <footer>
+        <>
             <div className="social">
                 <p>
                     Need help with API?{" "}
@@ -20,7 +20,7 @@ const Footer = ({co}: {co:any}) => {
             <div className="footer-msg">
                 <p className="white-text">Made with love 🩸</p>
             </div>
-        </footer>
+        </>
     </>
 }
 
