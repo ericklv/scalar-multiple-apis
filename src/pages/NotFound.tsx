@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import ParticlesBg from './../components/ts_particles';
+import {ParticlesBg} from './../components';
 import './../App.css'
 
 function NotFound() {

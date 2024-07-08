@@ -13,5 +13,36 @@
         font-weight: bold;
         padding: 0 5px;
     }
-    /* margin: 0 auto; */
 }
+
+.border-sc {
+    border: 1px solid var(--text-color);
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 400px;
+    max-height: 400px;
+    width: 20vw;
+    height: 20vw;
+    text-align: center;
+  }
+  
+  .btn-home {
+    background-color: var(--btn-color);
+    border-color: var(--btn-border-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    max-width: 200px;
+    margin:auto;
+    transition: filter 300ms;
+  
+    &:hover:focus:active{
+      border-color: var(--btn-border-color);
+      box-shadow: 0 0 11px var(--text-color);
+    }
+  }
+  
+  .btn-fixed {
+    position: fixed;
+    top: 90vh;
+    right: 2vw;
+  }
