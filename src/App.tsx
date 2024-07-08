@@ -1,7 +1,7 @@
 import "./App.css";
 import Router from "./router";
 import { useEffect } from "react";
-import { company as co } from "./docs";
+import { company as co } from "./config";
 
 interface HTMLInputElementX extends Omit<HTMLInputElement, "href"> {
   href: string;

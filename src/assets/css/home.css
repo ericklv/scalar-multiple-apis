@@ -1,3 +1,17 @@
+.home {
+  p,a,h1,h2,h3,h5 {
+    color: var(--text-color)
+  };
+  
+}
+
+.icon-card {
+  max-height: 35px;
+  margin: 0;
+  filter: var(--svg-color);
+
+}
+
 .card {
   display: block;
   position: relative;
@@ -7,12 +21,11 @@
   border-radius: 4px;
   padding: 32px 24px;
   margin: 12px;
-  color: var(--text-color);
   text-decoration: none;
   z-index: 1;
   overflow: hidden;
   backdrop-filter: blur(5px);
-  box-shadow: 0 0 5px var(--card-border-color);
+  box-shadow: 0 0 2px var(--card-border-color);
   will-change: filter;
   transition: transform 250ms;
 
@@ -41,7 +54,6 @@
 
   p,h3 {
     transition: all 0.3s ease-out;
-    color: var(--text-color);
   }
 }
 
@@ -62,7 +74,6 @@
 .card-arrow {
   margin-top: -4px;
   margin-right: -4px;
-  color: var(--text-color);
   font-family: courier, sans;
 }
 
@@ -111,7 +122,6 @@
   bottom: 0; */
   width: 100vw;
   background-color: black;
-  color: var(--text-color);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -134,15 +144,14 @@
   }
 
   p {
-    color: var(--text-color);
     padding: 0 10px;
     margin: 0 10px;
   }
 
   a {
-    color: var(--text-color);
     text-decoration: underline;
     transition: transform .2s;
+    color: var(--text-color);
 
     &:hover {
       color: var(--a-color);

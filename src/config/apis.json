@@ -22,6 +22,12 @@
         "yaml": "https://raw.githubusercontent.com/stoplightio/elements/main/demo/src/reference/todo.v1.yaml",
         "page": "stoplight",
         "id": "stoplight-docs-id"
+    },
+    {
+        "name": "Simple API",
+        "yaml": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v3.0/api-with-examples.json",
+        "page": "simple",
+        "id": "simple-docs-id"
     }
 
 ]

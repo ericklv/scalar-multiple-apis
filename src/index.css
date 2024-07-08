@@ -45,6 +45,9 @@
   --btn-color: var(--color-8);
   --btn-border-color: var(--color-6);
 
+  --svg-color:invert(100%) sepia(100%) saturate(0%) hue-rotate(336deg) brightness(102%) contrast(105%);
+
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;

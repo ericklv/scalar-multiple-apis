@@ -1,7 +1,8 @@
 import sc from "./../assets/sad_company.webp";
 import { Link } from "react-router-dom";
 import ParticlesBg from "./../components/ts_particles";
-import { apis, company as co } from "./../docs";
+import { apis, company as co } from "../config";
+import APIInfo from "../components/api_info";
 
 function Home() {
   const mailTo = (email: string, type: string) => {
@@ -30,10 +31,11 @@ function Home() {
         <p>{co.about}</p>
         <div className="docs-list">
           {apis &&
-            apis.map(({ name, page, id }) => (
+            apis.map(({ name, page, id, yaml }) => (
               <Link key={id} to={page}>
                 <div className="card">
-                  <p className="white-text">{name}</p>
+                  <p className="white-text"> {name}</p>
+                  <APIInfo url={yaml}/>
                   <div className="card-corner">
                     <div className="card-arrow">
                       →

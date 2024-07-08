@@ -1,4 +1,17 @@
-
 .white-text {
-    color:var(--text-color);
-  }
+    color: var(--text-color);
+}
+
+.api-type {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    p {
+        font-size: 0.6rem;
+        border: 2px solid var(--text-color);
+        border-radius: 6px;
+        font-weight: bold;
+        padding: 0 5px;
+    }
+    /* margin: 0 auto; */
+}
