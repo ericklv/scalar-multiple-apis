@@ -1,4 +1,4 @@
-const APIInfo = ({ url }) => {
+const APIInfo = ({ url }: { url: string | undefined }) => {
     let url_: string = url ? url : "";
 
     const aux_type: string = url_.toUpperCase().split(".").pop()!;
