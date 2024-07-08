@@ -1,7 +1,7 @@
 # Scalar Multiple APIs
 Simple landing to show all your OpenAPI files powered by Scalar API Reference.
 
-![App Platorm](https://i.imgur.com/dwFzQgS.png)
+![Imgur](https://i.imgur.com/KOQrjvE.png)
 
 ## Customize
 In the `src/config` folder you can customize the json files.
