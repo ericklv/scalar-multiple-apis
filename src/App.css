@@ -1,5 +1,6 @@
 @import "./assets/css/home.css";
 @import "./assets/css/utils.css";
+@import "./assets/css/background.css";
 
 #root {
   width: 100vw;

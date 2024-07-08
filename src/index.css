@@ -34,6 +34,7 @@
   --color-6: rgba(255, 255, 255, .1);
   --color-7: #0F0F0F;
   --color-8: #272727;
+  --color-9: #1a1a1a;
   --color-none: none;
 
   --card-background: var(--color-none);
@@ -44,6 +45,7 @@
   --a-color: var(--color-5);
   --btn-color: var(--color-8);
   --btn-border-color: var(--color-6);
+  --bg-color: var(--color-7);
 
   --svg-color:invert(100%) sepia(100%) saturate(0%) hue-rotate(336deg) brightness(102%) contrast(105%);
 
@@ -54,8 +56,6 @@
 
   color-scheme: light dark;
   color: var(--text-color);
-  background-color: #1a1a1a;
-  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -97,7 +97,7 @@ button:focus-visible {
 }
 
 canvas {
-  z-index: -1;
+  z-index: 0;
 }
 
 /* 
