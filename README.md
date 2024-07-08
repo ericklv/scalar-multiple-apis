@@ -1,8 +1,6 @@
 # Scalar Multiple APIs
 Simple landing to show all your OpenAPI files powered by Scalar API Reference.
 
-![Imgur](https://i.imgur.com/KOQrjvE.png)
-
 ## Customize
 In the `src/config` folder you can customize the json files.
 - `apis.json` : Add all your OpenAPI/Swagger files.

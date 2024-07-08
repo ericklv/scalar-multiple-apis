@@ -1,12 +1,12 @@
 {
-    "name": "Sad Company",
-    "title": "Sad Docs",
-    "website": "https://www.google.com",
-    "logo": "https://raw.githubusercontent.com/ericklv/scalar-multiple-apis/main/src/assets/sad_company.webp",
-    "favicon": "https://raw.githubusercontent.com/ericklv/scalar-multiple-apis/main/src/assets/angry.svg",
-    "wallpaper": "url",
-    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "ti-mail": "noname@company.com",
-    "sales-mail": "sales@company.com",
+    "name": "Chazki",
+    "title": "",
+    "website": "https://www.chazki.com",
+    "logo": "https://raw.githubusercontent.com/Chazki-Unified/open-api-docs/main/resources/logo.png",
+    "favicon": "https://raw.githubusercontent.com/Chazki-Unified/open-api-docs/main/resources/favicon2.png",
+    "wallpaper": "",
+    "about": "No somos una empresa de logística, ¡somos un aliado para el crecimiento de tu negocio! Envíos Same Day, Next Day y Flex en Perú, Chile, México o Argentina",
+    "ti-mail": "integraciones@chazki.com",
+    "sales-mail": "soporte@chazki.com",
     "ts-particles": true
 }

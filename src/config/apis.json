@@ -1,33 +1,33 @@
 [
     {
-        "name": "Pet Store",
-        "yaml": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v3.0/petstore.yaml",
-        "page": "pet-store",
-        "id": "pet-storde-docs-id"
+        "name": "Chile Fifo",
+        "yaml": "https://raw.githubusercontent.com/Chazki-Unified/open-api-docs/main/chile-fifo.yaml",
+        "page": "fifo",
+        "id": "chile-fifo-docs-id"
     },
     {
-        "name": "Galaxy Stelar",
-        "yaml": "https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/latest.yaml",
-        "page": "galaxy",
-        "id": "galaxy-docs-id"
+        "name": "Peru Legacy",
+        "yaml": "https://raw.githubusercontent.com/Chazki-Unified/open-api-docs/main/peru-legacy.yaml",
+        "page": "peru",
+        "id": "peru-docs-id"
     },
     {
-        "name": "Museum Redocly",
-        "yaml": "https://raw.githubusercontent.com/Redocly/museum-openapi-example/main/openapi.yaml",
-        "page": "museum-redocly",
-        "id": "museum-redocly-docs-id"
+        "name": "Tonny (Express)",
+        "yaml": "https://raw.githubusercontent.com/Chazki-Unified/open-api-docs/main/nintendo.yaml",
+        "page": "tonny",
+        "id": "nintendo-docs-id"
     },
     {
-        "name": "Stoplight",
-        "yaml": "https://raw.githubusercontent.com/stoplightio/elements/main/demo/src/reference/todo.v1.yaml",
-        "page": "stoplight",
-        "id": "stoplight-docs-id"
-    },
-    {
-        "name": "Simple API",
-        "yaml": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v3.0/api-with-examples.json",
+        "name": "Lok Mexico",
+        "yaml": "https://raw.githubusercontent.com/Chazki-Unified/open-api-docs/main/lok-api.json",
         "page": "simple",
         "id": "simple-docs-id"
+    },
+    {
+        "name": "Shopify ",
+        "yaml": "https://raw.githubusercontent.com/Redocly/museum-openapi-example/main/openapi.yaml",
+        "page": "shopify",
+        "id": "shopify-docs-id"
     }
 
 ]
