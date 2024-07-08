@@ -19,9 +19,9 @@ function Home() {
             />
           </a>
         </div>
-        <h1>{co.title}</h1>
-        <p>a documentation of {co.name} APis</p>
-        <p>{co.about}</p>
+        {co.title && <h1>{co.title}</h1>}
+        {co.name && <p>a documentation of {co.name} APis</p>}
+        {co.about && <p>{co.about}</p>}
         <div className="docs-list">
           {apis &&
             apis.map(({ name, page, id, yaml }) => (
