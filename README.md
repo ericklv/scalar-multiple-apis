@@ -4,14 +4,14 @@ Simple landing to show all your OpenAPI files powered by Scalar API Reference.
 ![App Platorm](https://i.imgur.com/dwFzQgS.png)
 
 ## Customize
-In the `src/docs` folder you can customize the json files.
-- `api.json` : Add all your OpenAPI/Swagger files.
+In the `src/config` folder you can customize the json files.
+- `apis.json` : Add all your OpenAPI/Swagger files.
 - `company.json` : Customize with your info.
 - `ts-particles/*.json` : Add your own JSON file with config for ts-particles animation or use `default.json`. Check in company.json if ts-particles is enabled.
 
 To load custom animation config edit `src/components/ts_particles.tsx`
 ```tsx
-import tsp from './../docs/ts-particles/default.json'
+import { default_ as config } from '../config/ts-particles';
 
 const ParticlesBg = () => { 
     //...
