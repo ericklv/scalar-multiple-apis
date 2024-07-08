@@ -1,4 +1,4 @@
 .bg-body {
     /* add your color, animations, transitions and stuffs */
-    background-color: var(--bg-color);
+    background-image: linear-gradient(to top, #051937, #051937, #051937, #0c2a54, #143c72, #1b4e92, #2262b4, #1e75ca, #1589e1, #009ef7, #00b5fc, #00c5d7, #00cf8f, #37d12c);
 }
