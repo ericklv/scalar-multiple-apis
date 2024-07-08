@@ -1,15 +1,17 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { type Container} from "@tsparticles/engine";
+import { type Container } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
-import {company as co} from '../config'
-import {amongus2 as config} from '../config/ts-particles'
+import { company as co } from '../config'
+import { amongus2 as config } from '../config/ts-particles'
 
 const ParticlesBg = () => {
     useEffect(() => {
-        initParticlesEngine(async (engine) => {
-            await loadSlim(engine);
-        }).then(() => {});
+        if (co["ts-particles"]) {
+            initParticlesEngine(async (engine) => {
+                await loadSlim(engine);
+            });
+        }
     }, []);
 
     const particlesLoaded = async (container?: Container): Promise<void> => {
@@ -21,17 +23,12 @@ const ParticlesBg = () => {
         [],
     );
 
-    if (co["ts-particles"]) {
-        return (
-            <Particles
-                id="tsparticles"
-                particlesLoaded={particlesLoaded}
-                options={options}
-            />
-        );
-    }
-
-    return <></>;
+    return (co["ts-particles"]) ?
+        <Particles
+            id="tsparticles"
+            particlesLoaded={particlesLoaded}
+            options={options}
+        /> : <></>;
 };
 
 export default ParticlesBg;
