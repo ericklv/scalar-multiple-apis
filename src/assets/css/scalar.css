@@ -30,7 +30,7 @@
         --bg-color: var(--scalar-background-1);
 
         --card-background: var(--color-11);
-        --card-arrow-color: var(--bg-color);
+        --card-arrow-color: var(--scalar-background-3);
         --card-border-color: var(--scalar-color-2);
         --background-color: var(--bg-color);
     }
@@ -65,7 +65,7 @@
         --bg-color: var(--scalar-background-1);
 
         --card-background: var(--color-11);
-        --card-arrow-color: var(--bg-color);
+        --card-arrow-color: var(--scalar-background-2);
         --card-border-color: var(--scalar-color-2);
         --background-color: var(--bg-color);
     }
