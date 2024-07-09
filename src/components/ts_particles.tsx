@@ -12,9 +12,7 @@ const ParticlesBg = () => {
         }
     }, []);
 
-    const particlesLoaded = async (container?: Container): Promise<void> => {
-        console.log(container);
-    };
+    const particlesLoaded = async (c?: Container): Promise<void> => {c};
 
     const options: any = useMemo(() => (config), [],);
 

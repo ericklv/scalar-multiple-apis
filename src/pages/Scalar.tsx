@@ -1,12 +1,11 @@
 import { ApiReferenceReact } from '@scalar/api-reference-react'
-import '@scalar/api-reference-react/style.css'
 import { useNavigate } from 'react-router-dom'
 
 const Scalar = (props: any) => {
     const { id, yaml } = props
     const navi = useNavigate();
 
-    const go_home = () => navi('/', { replace: true })
+    const go_home = () => navi('/', { replace: false })
 
     return (
         <div id={id} className='scalar-content'>

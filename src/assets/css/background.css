@@ -1,4 +1,10 @@
 .bg-body {
+    /* if you want set custom background color 
+    override the var --scalar-background-1 */
+
+    /* default theme is darkdefault theme is dark */
+
+    /* --scalar-background-1: red!important; */
+
     /* add your color, animations, transitions and stuffs */
-    background-color: var(--bg-color);
 }

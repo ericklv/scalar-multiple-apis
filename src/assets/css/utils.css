@@ -27,9 +27,8 @@
   }
   
   .btn-home {
-    background-color: var(--btn-color);
-    border-color: var(--btn-border-color);
-    color: var(--text-color);
+    background-color: var(--scalar-background-1);
+    border-color: var(--scalar-color-2);
     border-radius: 10px;
     max-width: 200px;
     margin:auto;
@@ -37,7 +36,7 @@
   
     &:hover:focus:active{
       border-color: var(--btn-border-color);
-      box-shadow: 0 0 11px var(--text-color);
+      box-shadow: 0 0 11px var(--scalar-shadow-2);
     }
   }
   

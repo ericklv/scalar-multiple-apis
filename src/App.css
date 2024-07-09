@@ -1,9 +1,19 @@
 @import "./assets/css/home.css";
 @import "./assets/css/utils.css";
+@import "./assets/css/scalar.css";
+@import "@scalar/api-reference-react/style.css";
 @import "./assets/css/background.css";
 
+/* default theme if not exist is dark */
 #root {
+  background-color: var(--scalar-background-1);
   width: 100vw;
+  min-height: 100vh;
   margin: 0;
-  padding: 0;
+  padding: auto;
+
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
