@@ -1,0 +1,71 @@
+/* modify from template by Madflows https://uiverse.io/profile/Madflows */
+.toogle-fixed {
+    --height: 20px;
+    --width: 50px;
+    --move: calc(var(--width)/2);
+    --b-radius: 15px;
+    --star-size: 16px;
+    --moon: inset 11px -2px 0px -3px var(--bg-color);
+}
+
+.toggle-switch {
+    z-index: 1000;
+    position: fixed;
+    top: 15px;
+    right: 16px;
+    width: var(--width);
+    height: var(--height);
+}
+
+.switch-label {
+    position: absolute;
+    width: 100%;
+    height: var(--height);
+    background-color: var(--scalar-color-1);
+    border-radius: var(--b-radius);
+    cursor: pointer;
+    border: 2px solid var(--scalar-color-1);
+}
+
+.checkbox {
+    position: absolute;
+    display: none;
+}
+
+.checkbox:checked~.slider {
+    background-color: var(--bg-color);
+}
+
+.checkbox:checked~.slider::before {
+    -webkit-transform: translateX(var(--move));
+    -ms-transform: translateX(var(--move));
+    transform: translateX(var(--move));
+    background-color: var(--scalar-color-1);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--b-radius);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.slider::before {
+    z-index: 9999;
+    content: "";
+    position: absolute;
+    top: calc(var(--height)/11);
+    left: calc(var(--width)/12);
+    width: var(--star-size);
+    height: var(--star-size);
+    border-radius: 50%;
+    -webkit-box-shadow: var(--moon);
+    box-shadow: var(--moon);
+    background-color: none;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}

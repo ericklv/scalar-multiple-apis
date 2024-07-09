@@ -3,6 +3,7 @@
 @import "./assets/css/scalar.css";
 @import "@scalar/api-reference-react/style.css";
 @import "./assets/css/background.css";
+@import "./assets/css/switch.css";
 
 /* default theme if not exist is dark */
 #root {
