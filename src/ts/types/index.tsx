@@ -1,6 +1,4 @@
-import { Dispatch, SetStateAction } from "react";
-
-export interface ThemeProps {
-  isDark: boolean;
-  setIsDark: Dispatch<SetStateAction<boolean>>;
+export type ThemeProps = {
+    isDark: boolean;
+    setIsDark: (v: boolean) => void;
 }

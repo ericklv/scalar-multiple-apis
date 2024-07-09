@@ -1,9 +1,8 @@
 import { ThemeProps } from "../ts/types";
-import { FunctionComponent } from "react";
 
-const Switch: FunctionComponent<ThemeProps> = (props: ThemeProps) => {
+const Switch = ({ isDark, setIsDark }: ThemeProps) => {
   const hChange = () => {
-    props.setIsDark(!props.isDark);
+    setIsDark(!isDark);
   };
 
   return (
@@ -13,7 +12,7 @@ const Switch: FunctionComponent<ThemeProps> = (props: ThemeProps) => {
           <input
             type="checkbox"
             className="checkbox"
-            defaultChecked={props.isDark}
+            defaultChecked={isDark}
             onChange={hChange}
           />
           <span className="slider"></span>

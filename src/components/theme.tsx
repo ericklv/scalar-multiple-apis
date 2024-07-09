@@ -1,12 +1,11 @@
-import { useEffect, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import { company as co } from "../config";
 import { getTMode, getDLS, setKeyLS } from "./utils";
 import { HTMLInputElementX, Props } from "../ts/interfaces";
 import Switch from "./switch";
-import { ThemeProps } from "../ts/types";
 
-const Theme: React.FC<Props> = ({ children }) => {
-  const [isDark, setIsDark] = useState<ThemeProps>(getDLS());
+const Theme: FC<Props> = ({ children }) => {
+  const [isDark, setIsDark] = useState(getDLS());
 
   useEffect(() => {
     const favicon_ = async () => {
