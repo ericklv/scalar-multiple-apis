@@ -1,47 +1,61 @@
 .white-text {
-    color: var(--text-color);
+  color: var(--text-color);
 }
 
 .api-type {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    p {
-        font-size: 0.6rem;
-        border: 2px solid var(--text-color);
-        border-radius: 6px;
-        font-weight: bold;
-        padding: 0 5px;
-    }
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  p {
+    font-size: 0.6rem;
+    border: 2px solid var(--text-color);
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 0 5px;
+  }
 }
 
 .border-sc {
-    border: 1px solid var(--text-color);
-    min-width: 200px;
-    min-height: 200px;
-    max-width: 400px;
-    max-height: 400px;
-    width: 20vw;
-    height: 20vw;
-    text-align: center;
+  border: 1px solid var(--text-color);
+  min-width: 200px;
+  min-height: 200px;
+  max-width: 400px;
+  max-height: 400px;
+  width: 20vw;
+  height: 20vw;
+  text-align: center;
+}
+
+.btn-home {
+  background-color: var(--scalar-background-1);
+  border: 2px solid var(--scalar-color-2);
+  color: var(--text-color);
+  border-radius: 10px;
+  max-width: 200px;
+  padding: 7px 18px;
+  margin: auto;
+  transition: transform 300ms;
+
+  &:hover {
+    border-color: var(--btn-border-color);
+    box-shadow: 0 0 11px var(--scalar-shadow-2);
+    transform: scale(1.1);
   }
-  
-  .btn-home {
-    background-color: var(--scalar-background-1);
-    border-color: var(--scalar-color-2);
-    border-radius: 10px;
-    max-width: 200px;
-    margin:auto;
-    transition: filter 300ms;
-  
-    &:hover:focus:active{
-      border-color: var(--btn-border-color);
-      box-shadow: 0 0 11px var(--scalar-shadow-2);
-    }
-  }
-  
-  .btn-fixed {
+}
+
+.btn-fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  user-select: none;
+
+  @media (max-width: 460px) {
     position: fixed;
-    top: 90vh;
-    right: 2vw;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    user-select: none;
   }
+}

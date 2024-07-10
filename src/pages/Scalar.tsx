@@ -16,7 +16,7 @@ const Scalar = (props: any) => {
                     },
                 }}
             />
-            <button className='btn-home btn-fixed' onClick={_ => go_home()}>Go Home</button>
+            <div className='btn-home btn-fixed' onClick={go_home}>Go Home</div>
         </div>
     )
 }

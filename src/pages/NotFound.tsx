@@ -14,7 +14,7 @@ function NotFound() {
           <h1 className='border-sc docs-text'>¯\_(ツ)_/¯ </h1>
         </div>
         <h1>Not Found </h1>
-        <button className='btn-home' onClick={_ => go_home()}>Back to home</button>
+        <div className='btn-home' onClick={go_home}>Back to home</div>
       </div>
     </>
   )
