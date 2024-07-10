@@ -34,7 +34,7 @@ Generate interactive API Docs from OpenAPI/Swagger documents.
 ### TS Particles
 A lightweight TypeScript library for creating particles compatible with React, Vue, Angular and others.
 
-- [@tsparticles/react](https://github.com/tsparticles/react/#readme) React + TS
+- [@tsparticles/react](https://github.com/tsparticles/react) React + TS
 - [@tsparticles/engine](https://github.com/tsparticles/tsparticles) No framework
 - [Animations presets](https://particles.js.org/samples/presets/index.html) Examples
 - [Mateo Bruno Codepen](https://codepen.io/collection/DPOage?cursor=eyJwYWdlIjoxfQ==) Examples with preview

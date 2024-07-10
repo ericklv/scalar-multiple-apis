@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './../pages/Home';
 import NotFound from './../pages/NotFound';
-import {apis} from '../config';
+import { apis } from '../config';
 import Scalar from './../pages/Scalar';
 
 const Router = () => {
