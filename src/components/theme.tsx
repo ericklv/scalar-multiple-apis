@@ -27,7 +27,7 @@ const Theme: FC<Props> = ({ children }) => {
 
     setTheme();
     favicon_();
-    document.title = co.title || co.name + "Docs";
+    document.title = co.title || co.name + " Docs";
   }, []);
 
   useEffect(() => {

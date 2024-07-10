@@ -3,6 +3,11 @@
         display: none !important;
     }
 
+    .server-form-container{
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     .light-mode {
         --scalar-background-1: #fff6eb;
         --scalar-background-2: #fff0de;
@@ -29,7 +34,7 @@
         --btn-border-color: var(--scalar-color-1);
         --bg-color: var(--scalar-background-1);
 
-        --card-background: var(--color-11);
+        --card-background: var(--color-none);
         --card-arrow-color: var(--scalar-background-3);
         --card-border-color: var(--scalar-color-2);
         --background-color: var(--bg-color);
@@ -60,11 +65,11 @@
 
         --text-color: var(--scalar-color-1);
         --a-color: var(--scalar-color-1);
-        --btn-color: var(---color-none);
+        --btn-color: var(--color-none);
         --btn-border-color: var(--scalar-color-1);
         --bg-color: var(--scalar-background-1);
 
-        --card-background: var(--color-11);
+        --card-background: var(--color-none);
         --card-arrow-color: var(--scalar-background-2);
         --card-border-color: var(--scalar-color-2);
         --background-color: var(--bg-color);
