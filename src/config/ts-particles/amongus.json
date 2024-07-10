@@ -130,7 +130,7 @@
     },
     "detectRetina": true,
     "background": {
-        "color": "#000000"
+        "color": "none"
     },
     "emitters": {
         "position": {
@@ -208,7 +208,7 @@
                 "straight": true
             },
             "zIndex": {
-                "value": 0
+                "value": -1
             },
             "rotate": {
                 "value": {

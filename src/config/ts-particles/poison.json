@@ -28,7 +28,7 @@
       }
     },
     "background": {
-      "color": "#000000"
+      "color": "none"
     },
     "poisson": {
       "enable": true
