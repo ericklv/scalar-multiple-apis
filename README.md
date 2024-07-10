@@ -26,6 +26,10 @@ const ParticlesBg = () => {
 npm install
 npm run dev
 ```
+3. If you want test on local network
+```shell
+npm run dev -- --host
+```
 
 ## Packages
 
