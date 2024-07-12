@@ -45,10 +45,12 @@
         --scalar-background-1: #2a2f45;
         /* background request and item selected  */
         --scalar-background-2: #151722;
-        /* background request and item selected  */
-        --scalar-background-3: #272727;
+        /* request footer and popup footer  */
+        --scalar-background-3: #27272;
 
+        /* font color */
         --scalar-color-1: #fdfcf3;
+        /* http codes color */
         --scalar-color-2: #e3e2da;
         --scalar-color-3: #b1b0aa;
 
