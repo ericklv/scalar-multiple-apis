@@ -3,7 +3,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { type Container } from "@tsparticles/engine";
 import { loadFull } from "tsparticles";
 import { company as co } from '../config';
-import { dotcolors as config } from '../config/ts-particles';
+import { polygondots as config } from '../config/ts-particles';
 
 const ParticlesBg = () => {
     useEffect(() => {
