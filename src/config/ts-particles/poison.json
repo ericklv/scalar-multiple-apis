@@ -4,27 +4,27 @@
         "value": 100
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#7f7f7f"
       },
       "links": {
         "enable": true,
-        "distance": 200
+        "distance": 60
       },
       "shape": {
         "type": "circle"
       },
       "opacity": {
-        "value": 1
+        "value": 0.4
       },
       "size": {
         "value": {
-          "min": 4,
-          "max": 6
+          "min": 0.8,
+          "max": 2
         }
       },
       "move": {
         "enable": true,
-        "speed": 2
+        "speed": 4
       }
     },
     "background": {

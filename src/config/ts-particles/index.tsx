@@ -4,6 +4,6 @@ export {default as amongus2}  from './amongus2.json';
 export {default as dotcolors}  from './dotcolors.json';
 export {default as bubbles}  from './bubbles.json';
 export {default as bounce}  from './bounce.json';
+export {default as bounce2}  from './bounce2.json';
 export {default as default_}  from './default.json';
 export {default as polygondots}  from './polygondots.json';
-export {default as test}  from './test.json';
