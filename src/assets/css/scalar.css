@@ -9,9 +9,9 @@
     }
 
     .light-mode {
-        --scalar-background-1: #fff6eb;
-        --scalar-background-2: #fff0de;
-        --scalar-background-3: #ffead1;
+        --scalar-background-1: #faf8f5;
+        --scalar-background-2: #f1ece2;
+        --scalar-background-3: #c7c5c2;
 
         --scalar-color-1: #2a2f45;
         --scalar-color-2: #757575;
@@ -42,11 +42,11 @@
 
     .dark-mode {
         /* background main div  */
-        --scalar-background-1: #2a2f45;
+        --scalar-background-1: #272931;
         /* background request and item selected  */
-        --scalar-background-2: #151722;
+        --scalar-background-2: #282828;
         /* request footer and popup footer  */
-        --scalar-background-3: #27272;
+        --scalar-background-3: #333333;
 
         /* font color */
         --scalar-color-1: #fdfcf3;
