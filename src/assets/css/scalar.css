@@ -1,5 +1,5 @@
 :root {
-    .darklight {
+    .darklight, .open-api-client-button {
         display: none !important;
     }
 
