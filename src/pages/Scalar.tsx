@@ -11,9 +11,7 @@ const Scalar = (props: any) => {
         <div id={id} className='scalar-content'>
             <ApiReferenceReact
                 configuration={{
-                    spec: {
                         url: yaml,
-                    },
                 }}
             />
             <div className='btn-home btn-fixed' onClick={go_home}>Go Home</div>
