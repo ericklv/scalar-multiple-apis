@@ -1,9 +1,14 @@
 :root {
-    .darklight, .open-api-client-button {
-        display: none !important;
+    .darklight-reference {
+        .open-api-client-button {
+            display: none !important;
+        }
+        button {
+            display: none !important;
+        }
     }
 
-    .server-form-container{
+    .server-form-container {
         overflow: hidden;
         text-overflow: ellipsis;
     }
@@ -17,16 +22,17 @@
         --scalar-color-2: #757575;
         --scalar-color-3: #8e8e8e;
 
-        --scalar-scrollbar-color: rgba(0, 0, 0, .18);
-        --scalar-scrollbar-color-active: rgba(0, 0, 0, .36);
+        --scalar-scrollbar-color: rgba(0, 0, 0, 0.18);
+        --scalar-scrollbar-color-active: rgba(0, 0, 0, 0.36);
 
         --scalar-button-1: rgba(0, 0, 0, 1);
-        --scalar-button-1-hover: rgba(0, 0, 0, .8);
-        --scalar-button-1-color: rgba(255, 255, 255, .9);
+        --scalar-button-1-hover: rgba(0, 0, 0, 0.8);
+        --scalar-button-1-color: rgba(255, 255, 255, 0.9);
 
-        --scalar-shadow-1: 0 1px 3px 0 rgba(0, 0, 0, .11);
-        --scalar-shadow-2: rgba(0, 0, 0, .08) 0px 13px 20px 0px, rgba(0, 0, 0, .08) 0px 3px 8px 0px, #eeeeed 0px 0 0 1px !important;
-
+        --scalar-shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.11);
+        --scalar-shadow-2:
+            rgba(0, 0, 0, 0.08) 0px 13px 20px 0px,
+            rgba(0, 0, 0, 0.08) 0px 3px 8px 0px, #eeeeed 0px 0 0 1px !important;
 
         --text-color: var(--scalar-color-1);
         --a-color: var(--scalar-color-1);
@@ -54,16 +60,18 @@
         --scalar-color-2: #e3e2da;
         --scalar-color-3: #b1b0aa;
 
-        --scalar-scrollbar-color: rgba(255, 255, 255, .18);
-        --scalar-scrollbar-color-active: rgba(255, 255, 255, .36);
+        --scalar-scrollbar-color: rgba(255, 255, 255, 0.18);
+        --scalar-scrollbar-color-active: rgba(255, 255, 255, 0.36);
 
         --scalar-button-1: #fdfcf4;
         --scalar-button-1-hover: #fdfcf6;
         --scalar-button-1-color: black;
 
-        --scalar-shadow-1: 0 1px 3px 0 rgb(0, 0, 0, .1);
-        --scalar-shadow-2: rgba(15, 15, 15, .2) 0px 3px 6px, rgba(15, 15, 15, .4) 0px 9px 24px, 0 0 0 1px rgba(255, 255, 255, .1) !important;
-
+        --scalar-shadow-1: 0 1px 3px 0 rgb(0, 0, 0, 0.1);
+        --scalar-shadow-2:
+            rgba(15, 15, 15, 0.2) 0px 3px 6px,
+            rgba(15, 15, 15, 0.4) 0px 9px 24px,
+            0 0 0 1px rgba(255, 255, 255, 0.1) !important;
 
         --text-color: var(--scalar-color-1);
         --a-color: var(--scalar-color-1);
@@ -90,7 +98,7 @@
         --scalar-color-2: #757575;
         --scalar-color-3: #8e8e8e;
         --scalar-color-accent: #0099ff;
-        --scalar-border-color: rgba(0, 0, 0, .1)
+        --scalar-border-color: rgba(0, 0, 0, 0.1);
     }
 
     .dark-mode {
@@ -98,11 +106,11 @@
         --scalar-background-2: #1a1a1a;
         --scalar-background-3: #272727;
         --scalar-background-accent: #3ea6ff1f;
-        --scalar-color-1: rgba(255, 255, 255, .9);
-        --scalar-color-2: rgba(255, 255, 255, .62);
-        --scalar-color-3: rgba(255, 255, 255, .44);
+        --scalar-color-1: rgba(255, 255, 255, 0.9);
+        --scalar-color-2: rgba(255, 255, 255, 0.62);
+        --scalar-color-3: rgba(255, 255, 255, 0.44);
         --scalar-color-accent: #3ea6ff;
-        --scalar-border-color: rgba(255, 255, 255, .1)
+        --scalar-border-color: rgba(255, 255, 255, 0.1);
     }
 
     .light-mode {
@@ -113,8 +121,8 @@
         --scalar-color-orange: #fb892c;
         --scalar-color-purple: #5203d1;
         --scalar-button-1: rgba(0, 0, 0, 1);
-        --scalar-button-1-hover: rgba(0, 0, 0, .8);
-        --scalar-button-1-color: rgba(255, 255, 255, .9)
+        --scalar-button-1-hover: rgba(0, 0, 0, 0.8);
+        --scalar-button-1-color: rgba(255, 255, 255, 0.9);
     }
 
     .dark-mode {
@@ -125,36 +133,41 @@
         --scalar-color-orange: #ff8d4d;
         --scalar-color-purple: #b191f9;
         --scalar-button-1: rgba(255, 255, 255, 1);
-        --scalar-button-1-hover: rgba(255, 255, 255, .9);
-        --scalar-button-1-color: black
+        --scalar-button-1-hover: rgba(255, 255, 255, 0.9);
+        --scalar-button-1-color: black;
     }
 
     .light-mode {
         color-scheme: light;
-        --scalar-scrollbar-color: rgba(0, 0, 0, .18);
-        --scalar-scrollbar-color-active: rgba(0, 0, 0, .36);
+        --scalar-scrollbar-color: rgba(0, 0, 0, 0.18);
+        --scalar-scrollbar-color-active: rgba(0, 0, 0, 0.36);
         --scalar-button-1: rgba(0, 0, 0, 1);
-        --scalar-button-1-hover: rgba(0, 0, 0, .8);
-        --scalar-button-1-color: rgba(255, 255, 255, .9);
-        --scalar-shadow-1: 0 1px 3px 0 rgba(0, 0, 0, .11);
-        --scalar-shadow-2: rgba(0, 0, 0, .08) 0px 13px 20px 0px, rgba(0, 0, 0, .08) 0px 3px 8px 0px, #eeeeed 0px 0 0 1px;
+        --scalar-button-1-hover: rgba(0, 0, 0, 0.8);
+        --scalar-button-1-color: rgba(255, 255, 255, 0.9);
+        --scalar-shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.11);
+        --scalar-shadow-2:
+            rgba(0, 0, 0, 0.08) 0px 13px 20px 0px,
+            rgba(0, 0, 0, 0.08) 0px 3px 8px 0px, #eeeeed 0px 0 0 1px;
         --scalar-sidebar-indent-border: transparent;
         --scalar-sidebar-indent-border-hover: transparent;
-        --scalar-sidebar-indent-border-active: transparent
+        --scalar-sidebar-indent-border-active: transparent;
     }
 
     .dark-mode {
         color-scheme: dark;
-        --scalar-scrollbar-color: rgba(255, 255, 255, .18);
-        --scalar-scrollbar-color-active: rgba(255, 255, 255, .36);
+        --scalar-scrollbar-color: rgba(255, 255, 255, 0.18);
+        --scalar-scrollbar-color-active: rgba(255, 255, 255, 0.36);
         --scalar-button-1: rgba(255, 255, 255, 1);
-        --scalar-button-1-hover: rgba(255, 255, 255, .9);
+        --scalar-button-1-hover: rgba(255, 255, 255, 0.9);
         --scalar-button-1-color: black;
-        --scalar-shadow-1: 0 1px 3px 0 rgb(0, 0, 0, .1);
-        --scalar-shadow-2: rgba(15, 15, 15, .2) 0px 3px 6px, rgba(15, 15, 15, .4) 0px 9px 24px, 0 0 0 1px rgba(255, 255, 255, .1);
+        --scalar-shadow-1: 0 1px 3px 0 rgb(0, 0, 0, 0.1);
+        --scalar-shadow-2:
+            rgba(15, 15, 15, 0.2) 0px 3px 6px,
+            rgba(15, 15, 15, 0.4) 0px 9px 24px,
+            0 0 0 1px rgba(255, 255, 255, 0.1);
         --scalar-sidebar-indent-border: transparent;
         --scalar-sidebar-indent-border-hover: transparent;
-        --scalar-sidebar-indent-border-active: transparent
+        --scalar-sidebar-indent-border-active: transparent;
     }
 
     /* @media (max-width: 460px) */
