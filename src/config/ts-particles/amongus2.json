@@ -4,6 +4,7 @@
   },
   "fpsLimit": 60,
   "particles": {
+    "reduceDuplicates": true,
     "groups": {
       "z5000": {
         "number": {
@@ -45,14 +46,14 @@
         "value_area": 800
       }
     },
-    "color": {
+    "paint": { "fill": { "enable": true, "color": {
       "value": "#fff",
       "animation": {
         "enable": false,
         "speed": 20,
         "sync": true
       }
-    },
+    } } },
     "shape": {
       "type": "circle"
     },
@@ -153,16 +154,16 @@
   },
   "emitters": {
     "position": {
-      "y": 55,
+      "y": 50,
       "x": -30
     },
     "rate": {
-      "delay": 7,
+      "delay": 6,
       "quantity": 1
     },
     "size": {
       "width": 0,
-      "height": 0
+      "height": 100
     },
     "particles": {
       "shape": {

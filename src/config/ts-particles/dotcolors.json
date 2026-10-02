@@ -1,13 +1,13 @@
 {
     "particles": {
-      "color": {
+      "paint": { "fill": { "enable": true, "color": {
         "value": [
           "#ffffff",
           "#ff0000",
           "#00ff00",
           "#0000ff"
         ]
-      },
+      } } },
       "move": {
         "enable": true,
         "outModes": "out",

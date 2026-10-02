@@ -8,6 +8,12 @@
         }
     }
 
+    /* scalar 0.9 styles live in @layer, global h1 (index.css) overrides them */
+    .scalar-content h1 {
+        font-size: revert-layer;
+        line-height: revert-layer;
+    }
+
     .server-form-container {
         overflow: hidden;
         text-overflow: ellipsis;

@@ -3,9 +3,9 @@
       "number": {
         "value": 100
       },
-      "color": {
+      "paint": { "fill": { "enable": true, "color": {
         "value": "#7f7f7f"
-      },
+      } } },
       "links": {
         "enable": true,
         "distance": 60

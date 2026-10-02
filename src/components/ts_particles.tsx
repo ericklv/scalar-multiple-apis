@@ -1,27 +1,23 @@
-import { useEffect, useMemo } from "react";
-import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { type Container } from "@tsparticles/engine";
+import { useMemo } from "react";
+import Particles, { ParticlesProvider } from "@tsparticles/react";
+import { type Engine, type ISourceOptions } from "@tsparticles/engine";
 import { loadFull } from "tsparticles";
 import { company as co } from '../config';
-import { polygondots as config } from '../config/ts-particles';
+import { bounce as config } from '../config/ts-particles';
+
+// must be stable across renders, ParticlesProvider throws if it changes
+const init = async (engine: Engine) => { await loadFull(engine); };
 
 const ParticlesBg = () => {
-    useEffect(() => {
-        if (co["ts-particles"]) {
-            initParticlesEngine(async (engine) => { await loadFull(engine); });
-        }
-    }, []);
-
-    const particlesLoaded = async (c?: Container): Promise<void> => {c};
-
-    const options: any = useMemo(() => (config), [],);
+    const options = useMemo(() => (config as ISourceOptions), []);
 
     return (co["ts-particles"]) ?
-        <Particles
-            id="tsparticles"
-            particlesLoaded={particlesLoaded}
-            options={options}
-        /> : <></>;
+        <ParticlesProvider init={init}>
+            <Particles
+                id="tsparticles"
+                options={options}
+            />
+        </ParticlesProvider> : <></>;
 };
 
 export default ParticlesBg;

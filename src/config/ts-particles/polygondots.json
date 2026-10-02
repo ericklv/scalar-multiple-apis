@@ -9,7 +9,7 @@
         },
         "modes": {
             "bubble": {
-                "distance": 40,
+                "distance": 50,
                 "duration": 2,
                 "opacity": 8,
                 "size": 6,
@@ -18,12 +18,17 @@
         }
     },
     "particles": {
-        "color": {
-            "value": "#ff0000",
-            "animation": {
+        "paint": {
+            "fill": {
                 "enable": true,
-                "speed": 20,
-                "sync": true
+                "color": {
+                    "value": "#ff0000",
+                    "animation": {
+                        "enable": true,
+                        "speed": 30,
+                        "sync": true
+                    }
+                }
             }
         },
         "links": {

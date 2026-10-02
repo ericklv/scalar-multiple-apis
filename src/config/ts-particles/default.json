@@ -27,9 +27,9 @@
       }
     },
     "particles": {
-      "color": {
+      "paint": { "fill": { "enable": true, "color": {
         "value": "#ffffff"
-      },
+      } } },
       "links": {
         "color": "#ffffff",
         "distance": 150,

@@ -12,6 +12,10 @@ const Scalar = (props: any) => {
             <ApiReferenceReact
                 configuration={{
                         url: yaml,
+                        // features that only work hosted on scalar's domain
+                        mcp: { disabled: true },
+                        agent: { disabled: true },
+                        showDeveloperTools: 'never',
                 }}
             />
             <div className='btn-home btn-fixed' onClick={go_home}>Go Home</div>

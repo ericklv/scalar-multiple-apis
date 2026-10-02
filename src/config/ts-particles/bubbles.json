@@ -2,52 +2,43 @@
     "fpsLimit": 60,
     "particles": {
         "number": {
-            "value": 150,
-            "limit": 200,
+            "value": 100,
+            "limit": {
+                "value": 150
+            },
             "density": {
-                "enable": true,
-                "value_area": 800
+                "enable": true
             }
         },
-        "color": {
+        "paint": { "fill": { "enable": true, "color": {
             "value": "#ffffff"
-        },
+        } } },
         "shape": {
-            "type": "circle",
-            "stroke": {
-                "width": 0,
-                "color": "#000000"
-            },
-            "polygon": {
-                "nb_sides": 5
-            },
-            "image": {
-                "src": "images/github.svg",
-                "width": 100,
-                "height": 100
-            }
+            "type": "circle"
         },
         "opacity": {
-            "value": 0.5,
-            "random": true,
-            "anim": {
+            "value": {
+                "min": 0.1,
+                "max": 0.5
+            },
+            "animation": {
                 "enable": true,
                 "speed": 1,
-                "opacity_min": 0.5,
                 "sync": false
             }
         },
         "size": {
-            "value": 30,
-            "random": true,
-            "anim": {
+            "value": {
+                "min": 10,
+                "max": 30
+            },
+            "animation": {
                 "enable": true,
                 "speed": 10,
-                "size_min": 10,
                 "sync": false
             }
         },
-        "line_linked": {
+        "links": {
             "enable": true,
             "distance": 100,
             "color": "#ffffff",
@@ -60,39 +51,22 @@
             "direction": "none",
             "random": false,
             "straight": false,
-            "out_mode": "out",
-            "attract": {
-                "enable": false,
-                "rotateX": 600,
-                "rotateY": 1200
-            }
+            "outModes": "out"
         }
     },
     "interactivity": {
-        "detect_on": "canvas",
+        "detectsOn": "canvas",
         "events": {
             "onHover": {
                 "enable": true,
-                "mode": "bubble",
-                "parallax": {
-                    "enable": false,
-                    "force": 60,
-                    "smooth": 10
-                }
+                "mode": "bubble"
             },
             "onClick": {
                 "enable": true,
                 "mode": "push"
-            },
-            "resize": true
+            }
         },
         "modes": {
-            "grab": {
-                "distance": 400,
-                "lineLinked": {
-                    "opacity": 1
-                }
-            },
             "bubble": {
                 "distance": 400,
                 "size": 100,
@@ -100,30 +74,13 @@
                 "opacity": 1,
                 "speed": 2
             },
-            "repulse": {
-                "distance": 200
-            },
             "push": {
-                "particles_nb": 4
+                "quantity": 4
             },
             "remove": {
-                "particles_nb": 2
+                "quantity": 2
             }
         }
     },
-    "backgroundMask": {
-        "enable": false,
-        "cover": {
-            "color": {
-                "value": {
-                    "r": 0,
-                    "g": 0,
-                    "b": 0,
-                    "a": 0.1
-                }
-            }
-        }
-    },
-    "retina_detect": true,
-    "fps_limit": 30
+    "detectRetina": true
 }

@@ -10,14 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@scalar/api-reference-react": "0.7.38",
-    "@tsparticles/engine": "^3.7.1",
-    "@tsparticles/react": "^3.0.0",
-    "@tsparticles/slim": "^3.7.1",
+    "@scalar/api-reference-react": "0.9.76",
+    "@tsparticles/engine": "^4.4.0",
+    "@tsparticles/react": "^4.4.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "6.24.1",
-    "tsparticles": "^3.5.0"
+    "tsparticles": "^4.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
